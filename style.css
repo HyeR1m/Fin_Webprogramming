@@ -1,0 +1,167 @@
+*{
+    font-family: 'Gothic A1', sans-serif;
+    list-style: none;
+    text-decoration: none;
+    border-collapse: collapse;
+    margin: 0px;
+    padding: 0px;
+    color: #000;
+    }
+    .background{
+        width: 100%;
+        height: 318px;
+        background-image: url("./image/apple tree.jpg");
+    }
+    .head {
+        display: flex;
+        width: 1280px;
+        margin: auto;
+        height: 86px;
+    }
+    .detail {
+        display: list-item;
+        justify-content: flex-end;
+        line-height: 58px;
+        width: calc(980px);
+        text-align: right;
+        color:#fff;
+        padding-left: 300px;
+    }
+    .detail > li {
+        margin-left: 84px;
+    }
+    .detail > li > a {
+        color: rgb(253, 247, 246);
+        font-weight: bolder;
+        padding-left: 10px;
+        padding-right: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        background-color: rgba(27, 110, 66, 0.948);
+    }
+    .first_text {
+        width: 400px;
+        margin: 60px auto 60px auto;
+        background-color: rgba(36, 110, 47, 0.81);
+        text-align: center;
+    }
+    .first_text > h1 {
+        color: #fff;
+        font-weight: bold;
+    }
+    .list {
+        width: 1280px;
+        width: 100%;
+       display: flex; 
+        margin: auto;
+        background: #fff;
+    }
+    .list > li > div {
+        text-align: center;
+        border-right: 1px solid black;
+        margin-top: 17px;
+    }
+    .list > li {
+        flex: 1;
+        height: 60px;
+        background: rgba(145, 225, 153, 0.448);
+    }
+    .list {
+        font-size: 25px;
+        font-weight: bolder;
+    }
+    .product1 {
+        width: 100%;
+        height: 380px;
+        background: gainsboro;
+    }
+    .product1 > h1 {
+        padding-top: 10px;
+        text-align: center;
+    }
+    .product1 {
+        margin-top: 5px;
+        text-align: center;
+    }
+    .images {
+        display: flex;
+        width: 100%;
+        height: 280px;
+        margin: auto;
+    }
+    .images > li > .images1 {
+        margin-top: 20px;
+    }
+    .images > li > .images2 {
+        margin-top: 20px;
+    }
+    .images > li > .images3 {
+        margin-top: 30px;
+    }
+    .images > li > .images4 {
+        margin-top: 30px;
+    }
+    .images > li {
+        flex: 1;
+        height: 280px;
+        background: white;
+        text-align: center;
+    }
+    .images > li:not(:last-child) {
+        margin-right: 30px;
+    }
+    .content0_bold {
+        font-size: 22.5px;
+        font-weight: bold;
+        margin-top: 15px;
+    }
+.t1 {
+    width: 100%;
+    height: 659px;
+}
+.t1 > h1 {
+    padding-top: 50px;
+    text-align: center;
+}
+.delivery {
+    width: 1280px;
+    display: flex;
+    margin: auto;
+    height: 425px;
+}
+.delivery > .content0_bold {
+padding: 20px;
+}
+.t2 {
+    width: 100%;
+    height: 418px;
+    background-image: url("image/final apple.jpg");
+}
+.t2 > ul {
+    display: flex;
+    padding-top: 160px;
+    padding-left: 630px;
+}
+.t2 >ul > li {
+    text-align: center;
+}
+.t3 {
+    width: 100%;
+    height: 380px;
+    background-image: url("image/board.jpg");
+}
+.t3 > ul {
+    display: flex;
+    padding-top: 130px;
+}
+.t3 > ul > li {
+    flex: 1;
+    text-align: center;
+}
+.add {
+    width: 220px;
+    height: 40px;
+    line-height: 40px;
+    margin: 25px auto;
+    border: 1px solid deeppink
+}
